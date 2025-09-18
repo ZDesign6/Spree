@@ -91,8 +91,9 @@ Label3:{"type":"field","size":[100,271],"pos":[404,36],"value":"Current Problem:
 field1:{"type":"field","size":[100,107],"pos":[138,231],"value":"TODO: what the fuck is a Listener\n\nEdit: it Listen to u\n\nTell it code that u think make sense, and it will tell u the return value. Sometime help"}
 field2:{"type":"field","size":[111,174],"pos":[177,39],"value":"TODO:\n\n- Create necessary number of Post-Its for each Phase\n\n-move on to Execution Phase Code"}
 field3:{"type":"field","size":[66,25],"pos":[292,61],"value":"WE ARE HERE\n<----"}
-field6:{"type":"field","size":[100,17],"pos":[19,160],"align":"center","value":"DONE"}
+field6:{"type":"field","size":[100,253],"pos":[23,79],"align":"center","value":"DONE\n\nFUCK CONTRAPTIONS\n"}
 field7:{"type":"field","size":[136,92],"pos":[245,230],"value":"Images can be copy and pasted from one canvas to another like so:\n\ndestcanvas.paste[sourcecanvas.copy[]]"}
+field4:{"type":"field","size":[91,244],"pos":[409,46],"align":"center","value":"\n\n\nALL MY HOMIES \n\n\n\nHATE CONTRAPTIONS"}
 
 {card:card3}
 {widgets}
