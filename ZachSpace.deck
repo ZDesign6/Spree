@@ -95,50 +95,19 @@ field6:{"type":"field","size":[100,253],"pos":[23,79],"align":"center","value":"
 field7:{"type":"field","size":[136,92],"pos":[245,230],"value":"Images can be copy and pasted from one canvas to another like so:\n\ndestcanvas.paste[sourcecanvas.copy[]]"}
 field4:{"type":"field","size":[91,244],"pos":[409,46],"align":"center","value":"\n\n\nALL MY HOMIES \n\n\n\nHATE CONTRAPTIONS"}
 
-{card:card3}
+{card:card7}
 {widgets}
 CorkBoard1:{"type":"contraption","size":[460,290],"pos":[28,33],"def":"CorkBoard","widgets":{"CorkBoard":{}}}
-button1:{"type":"button","size":[51,20],"pos":[360,227],"script":"card3.0","text":"Sticker!"}
-PostItWiggly:{"type":"contraption","size":[100,100],"pos":[62,68],"script":"card3.1","def":"wigglyCanvas","widgets":{"c":{},"fr":{"value":{"text":["i","i","i"],"font":["","",""],"arg":["%%IMG2AGQAZAD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wA3","%%IMG2AGQAZAD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wA3","%%IMG2AGQAZAD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wA3"]}},"sfx":{},"tb":{},"cbo":{},"cp":{},"cbr":{"value":"2"}}}
-clear:{"type":"button","size":[40,20],"pos":[438,224],"script":"card3.2","text":"Clear"}
-wigglyPlayer1:{"type":"contraption","size":[131,89],"pos":[22,209],"def":"wigglyPlayer","widgets":{"c":{"size":[131,89],"draggable":1},"fr":{"size":[131,20],"value":{"text":["i","i","i"],"font":["","",""],"arg":["%%IMG2AIMAWQD/AP8A/wD/AP8A/wDgAQIABAEDAAIBAgB1AQ8AbwECAAEBEgBtARgAagEaAGgBCQADAQMABAEJAGcBBwAPAQYAZgEFABIBBwBlAQUAEgEHAGYBBAATAQUAZwEFABIBBgBnAQUAEQEGAGcBBQAEAQgAAQECAAMBBQANAQIAWAEVAAEBBgAMAQ0ATwEgAAYBDwBLAQIAAgEgAAQBEgBIAScAAQEUAEYBDQALARYAAQEDAAEBCgBFAQsAEgECAAQBCwALAQYAQwEJABwBCgAMAQUAQgEIAB4BCgANAQYAQAEGACEBAgACAQYADQEHADwBBgAoAQUADgEHADgBCQApAQUADgEGADcBCQArAQUADwEFADYBBwAuAQUADgEGADUBBwAEAQIAKQEFAA0BBwA1AQUAAwEFACgBBgANAQYANAEFAAMBBgApAQYADgEFADIBBgADAQYAHgECAAoBBgAHAQMAAgEGADIBBgACAQYAHgEEAAoBBgAFAQsAMwEFAAMBBAAgAQUACwEFAAEBDgAzAQUABAECACIBBAAMARIANAEFACkBAgANAREANgEFADgBCQABAQMAOgEEADgBBwBAAQUABAECADIBBgBAAQUAAwEEAAkBAwAlAQUAQQEFAAMBBQAHAQUAJAEFAEEBBAAFAQUABQEGACUBBQBAAQQABQEGAAMBBgAmAQUAQAEFAAQBDwAIAQUAGQEFAEABBgAEARMAAQEIABgBBQBBAQYAAwEKAAEBEQAYAQUAQgEGAAMBCAADAQ8AFwEIAEEBBwAEAQMABwENABcBCQBCAQYADwEMABcBCQBDAQUAFgEEABMBDgBEAQYAKgEKAAEBBABEAQcAJwELAAIBBABFAQoAHQEDAAEBDgACAQIARgELAAMBAgAVAQ4AAQEFAEsBEAADAQMADQENAAIBBgBLAS4ABAEGAEwBLgADAQcASgEFAAIBIQABAQYABAEHAEkBBQADARwAAQECAAMBBQAEAQcASAEGAAwBAwADAQIAAQECAAQBAgAJAQUABAEFAEkBBgAnAQQABAEEAEoBBgAmAQUABQECAEsBBQAnAQcAUAEFACcBCABPAQUAKAEHAFABAwArAQQA/wD/AP8A/wD/AP8AVQ==","%%IMG2AIMAWQD/AP8A/wD/AP8A/wDhAQIAAgEHAHQBAgABAQ0AcQETAG8BFQBrARkAaQEMAAEBAgAHAQUAaAEHAAEBAwAMAQUAZwEFABIBBgBmAQUAEwEGAGUBBQAUAQUAZgEFABIBBQBnAQYAEQEGAGcBBQACAQIAAgECAAkBBgAMAQIAWQEFAAEBFwAKAQsAUgEeAAgBDQBQASAABAEQAEwBJAACARMASAEMAAYBBgACARYABQEIAEUBCQATAQQAAQENAAoBBwBDAQkAGgECAAEBCQALAQYAQgEGACIBCQAMAQUAQQEFACQBCAANAQYAPgEFACgBBQAOAQgAOQEHACkBBQAOAQgANwEHACsBBgANAQcANgEHAC0BBgANAQcANAEHAAEBBAAqAQYADgEFADQBDQAqAQUADwEEADQBBgABAQYAKgEGAA4BBQAyAQYAAgEGACABAgAJAQYABwEDAAEBBwAyAQYAAgEGAB8BBAAJAQYABQEMADIBBgACAQUAIAEEAAoBBgACAQ0AMwEFAAQBAgAiAQQACwETADUBBQAoAQIADQEQADcBBQA3AQ8AOQEFADcBCQA+AQUABgECADABBABCAQUABQEEAAYBAgAnAQQAQgEFAAQBBQAFAQQAJgEFAEEBBQAEAQQABgEFACUBBQBBAQUABAEPACUBBQBCAQQABAEQAAgBAwAZAQYAQQEEAAUBDwABAQIABAEFABgBBgBBAQQABQEKAAEBEAAYAQYAQQEFAAUBCAADAQ4AGgEFAEIBBQAFAQIAAgECAAUBDQAZAQYAQwEFAA8BDAAVAQMAAQEHAEQBBAAQAQIAAgEEABcBDQBDAQYAAQECACcBEABDAQoAJQENAAEBAgBFAQkAIgEPAEoBCwABAQMAGQEQAE0BEAABAQIABwECAAQBEAABAQYATAEuAAMBBgBMASwABQEGAEwBLQAEAQcASwEEAAIBAgACAR0AAgEFAAMBBwBKAQUACwEEAAEBBAABAQcACQEGAAMBBwBJAQUAJgEFAAQBBgBJAQUAJgEFAAYBAwBJAQUAJwEGAFEBBQAnAQcATwEGACgBBwBOAQUAKwEFAE4BBAAsAQQAUAECAC4BAgD/AP8A/wD/AP8ATw==","%%IMG2AIMAWQD/AP8A/wD/AP8A/wDhAQIABQECAHgBDgByARIAbwEVAGwBGABqARMAAQEGAGkBBgAQAQUAaAEFABEBBgBnAQQAEgEGAGcBBAASAQcAZgEFABIBBgBmAQUAEgEGAGcBBAADAQYAAwEMAA0BBABWAQUAAQEVAA0BCwBRAR0ACQENAEwBAgACASEABAEQAEkBGQABASIARwEMAAYBAwAGARMABwEIAEQBDQAVAQ4ACQEGAEMBCgAaAQ0ACwEFAEIBCQAfAQgADAEGAEEBBQAmAQUADQEHAD0BBgAoAQUADQEIADoBBwAoAQYADAEJADgBBwAqAQYADAEIADcBBgAtAQYADwEFADUBBwAvAQcADAEGADQBBgACAQQAKgEIAAsBBwAyAQYAAgEGACkBCAAMAQYAMgEGAAIBBgApAQgACQEIADMBBQAEAQUAIAECAAgBAgABAQUABwEKADIBBQAFAQMAIAEEAAsBBAAEAQ0AMgEFACgBBQAKAQUAAgENADMBBQApAQQACgEFAAEBCgA4AQQAKgECAAwBDgA5AQUAOAEKAD0BBAAGAQIAMQEHAD8BBAAFAQQACAEDACUBBgBAAQQABQEEAAYBBgAkAQUAQAEFAAUBBAAFAQcAJQEEAEABBQAEAQYAAQEKAAcBAgAcAQUAQAEEAAQBEgAFAQUAGgEFAEABBgACARIAAwEIABgBBgBBAQYAAgEcABgBBgBCAQUAAwEKAAIBDgAYAQcAQgEGAAQBAgACAQIABQEMABgBCQBCAQUAEAEKABYBDQBCAQUAEQEFABcBDwBDAQYAJwESAEQBBwAkAQ4ASwEHACIBEABLAQgAAwEDABYBFABMAQ8AAgEDAAUBBAAFAQ0AAgEFAE0BLAAFAQYATAEtAAQBBgBMAS8AAwEGAEoBBgADAQIAAwEWAAUBCAADAQUASgEFAAsBAwABAQMAAgECAAQBAgAJAQcAAwEFAEkBBQAoAQUAAwEEAEoBBgAnAQYAAwECAEsBBgAnAQYAUAEFACgBBgBQAQUAKQEGAE8BBQArAQQATwEEAC0BAgBRAQIA/wD/AP8A/wD/AH4="]}},"or":{"size":[131,20],"value":"[0,1,2]"},"fl":{"size":[79,20],"pos":[0,137]},"em":{"pos":[140,-49]},"cbo":{"size":[100,18],"pos":[140,0]},"cst":{"size":[100,17],"pos":[140,28]},"cd":{"size":[100,18],"pos":[140,54],"value":1}}}
-PostItPlayer:{"type":"contraption","size":[100,100],"pos":[110,220],"def":"wigglyPlayer","widgets":{"c":{"draggable":1},"fr":{"value":{"text":["","i","i","i"],"font":["","","",""],"arg":["","%%IMG2AIMAWQD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/ADIBAgCAAQQAfwEEAH4BBQB9AQUAfQEFAH4BBAB+AQUAfQEGAHwBBgB8AQcAfAEGAHwBBQB9AQYAfAEGAH0BBgB+AQQAfwEEAH8BBQB/AQQAfwEEAIABAgD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wDC","%%IMG2AIMAWQD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wCuAQIAgAEEAH8BBAB/AQUAfQEGAHwBBgB8AQUAfgEFAH0BBQB9AQYAfAEGAHwBBgB8AQYAfAEHAHwBBwB8AQcAfAEGAH0BBQB9AQcAfAEHAHwBBgB+AQIA/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wBI","%%IMG2AIMAWQD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/ADEBAwB/AQUAfgEFAH4BBQB9AQUAfQEFAH4BBQB9AQUAfQEFAH0BBQB9AQUAfQEFAH4BBQB+AQUAfgEFAH0BBgB9AQUAfgEEAH8BBAB/AQQAgAECAP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8ARw=="]}},"or":{"value":"[0,1,2]"},"fl":{},"em":{},"cbo":{},"cst":{},"cd":{"value":1}}}
-TempTack:{"type":"canvas","size":[24,37],"pos":[485,60],"locked":1,"animated":1,"script":"card3.3","show":"none","image":"%%IMG0ABgAJQAAAAAAAAAAAAAAAAAwAAAwAABwAABQAAD/AAGAgAYkQAySYAgSIBhBsBAYMBACcBwxIBmWYB8H4A8BwA8RwAb/gAOLgAQhgASEgAoxQAiEQAkSQAlCQAwowAiIwAISQATCgAMJAAD+AAAAAAAAAA==","scale":1}
-ClearButton:{"type":"button","size":[60,20],"pos":[390,162],"animated":1,"script":"card3.4","text":"Clear"}
-PostIt:{"type":"canvas","size":[100,100],"pos":[370,60],"image":"%%IMG2AGQAZAD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wBVAQMA/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AN4=","scale":1}
-Tack:{"type":"canvas","size":[24,37],"pos":[408,60],"locked":1,"animated":1,"script":"card3.5","show":"transparent","border":0,"image":"%%IMG0ABgAJQAAAAAAAAAAAAAAAAD/gAOBwAZIYAwSEBwEmBBIWBB+SBfjCB4J+BwS8BhA+BhMcBghMBCJMBASYAhAIAAs4AiCYAwQQARFwAIlwAHvAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==","scale":1}
-TackSwap:{"type":"canvas","size":[24,37],"pos":[485,110],"locked":1,"animated":1,"script":"card3.6","show":"none","border":0,"image":"%%IMG0ABgAJQAAAAAAAAAAAAAAAAAwAAAwAABwAABQAAD/AAGAgAYkQAySYAgSIBhBsBAYMBACcBwxIBmWYB8H4A8BwA8RwAb/gAOLgAQhgASEgAoxQAiEQAkSQAlCQAwowAiIwAISQATCgAMJAAD+AAAAAAAAAA==","scale":1}
-field2:{"type":"field","size":[87,20],"pos":[357,30],"value":"BEHOLD, POST-IT:"}
-field3:{"type":"field","size":[100,282],"pos":[217,30],"value":"HOW IT WORKS:\nTack:\n-Toggles the draggability of the PostIt\n- Sprites done over three Canvases\n-The main Tack Canvas on the PostIt is the only visible one. The other two act as the source Canvas for the next Sprite, and as temporary storage for moving the current sprite to the source Canvas.\n\nMisc:\n- All component Widgets stay 'attached' to the PostIt as it moves by updating their pos every frame in relation to the PostIt's pos"}
-wigglyPlayer3:{"type":"contraption","size":[2,2],"pos":[255,170],"def":"wigglyPlayer","widgets":{"c":{"size":[2,2],"draggable":1},"fr":{"size":[2,20]},"or":{"size":[2,20],"value":"[]"},"fl":{"size":[1,20],"pos":[0,50]},"em":{"pos":[11,-49]},"cbo":{"size":[100,0],"pos":[11,0]},"cst":{"size":[100,0],"pos":[11,1]},"cd":{"size":[100,1],"pos":[11,1],"value":1}}}
+TempTack:{"type":"canvas","size":[24,37],"pos":[466,62],"locked":1,"animated":1,"script":"card7.0","show":"none","image":"%%IMG0ABgAJQAAAAAAAAAAAAAAAAAwAAAwAABwAABQAAD/AAGAgAYkQAySYAgSIBhBsBAYMBACcBwxIBmWYB8H4A8BwA8RwAb/gAOLgAQhgASEgAoxQAiEQAkSQAlCQAwowAiIwAISQATCgAMJAAD+AAAAAAAAAA==","scale":1}
+ClearButton:{"type":"button","size":[60,20],"pos":[371,164],"animated":1,"script":"card7.1","text":"Clear"}
+PostIt:{"type":"canvas","size":[100,100],"pos":[351,62],"scale":1}
+Tack:{"type":"canvas","size":[24,37],"pos":[389,62],"locked":1,"animated":1,"script":"card7.2","show":"transparent","border":0,"image":"%%IMG0ABgAJQAAAAAAAAAAAAAAAAD/gAOBwAZIYAwSEBwEmBBIWBB+SBfjCB4J+BwS8BhA+BhMcBghMBCJMBASYAhAIAAs4AiCYAwQQARFwAIlwAHvAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==","scale":1}
+TackSwap:{"type":"canvas","size":[24,37],"pos":[466,112],"locked":1,"animated":1,"script":"card7.3","show":"none","border":0,"image":"%%IMG0ABgAJQAAAAAAAAAAAAAAAAAwAAAwAABwAABQAAD/AAGAgAYkQAySYAgSIBhBsBAYMBACcBwxIBmWYB8H4A8BwA8RwAb/gAOLgAQhgASEgAoxQAiEQAkSQAlCQAwowAiIwAISQATCgAMJAAD+AAAAAAAAAA==","scale":1}
+field2:{"type":"field","size":[115,23],"pos":[345,36],"value":"BEHOLD, JUICY POST-IT:"}
+field3:{"type":"field","size":[100,282],"pos":[32,35],"value":"HOW IT WORKS:\nTack:\n-Toggles the draggability of the PostIt\n- Sprites done over three Canvases\n-The main Tack Canvas on the PostIt is the only visible one. The other two act as the source Canvas for the next Sprite, and as temporary storage for moving the current sprite to the source Canvas.\n\nMisc:\n- All component Widgets stay 'attached' to the PostIt as it moves by updating their pos every frame in relation to the PostIt's pos"}
+field1:{"type":"field","size":[100,265],"pos":[141,43],"value":"Turning Post It into a Juicy Post It (It should \"zoom in\" when you pick it up by scaling up a bit, then scale down when the tack goes down)"}
 
-{script:card3.0}
-on click do
- c:card.add["contraption" "wigglyPlayer"]
- c.draggable:1
- c.size:source.size
- c.value:source.value
- c.pos:(card.size-c.size)/2
-end
-{end}
-
-{script:card3.1}
-on stroke_start do
- 
-end
-
-on stroke_end do
- 
-end
-{end}
-
-{script:card3.2}
-on click do
- source.clear[]
-end
-{end}
-
-{script:card3.3}
+{script:card7.0}
 on click pos do
  
 end
@@ -156,17 +125,24 @@ on view do
 end
 {end}
 
-{script:card3.4}
+{script:card7.1}
 on click do
  PostIt.clear[]
 end
 
 on view do
- me.pos:PostIt.pos + (20,102.5)
+#if PostIt.draggble is 1, it is being dragged, so larger offset required
+ if PostIt.draggable>0
+  me.pos:PostIt.pos + (25,115.5)
+ end
+#if PostIt.draggable is 0, it is not being dragged, so normal offset required
+ if PostIt.draggable<1
+  me.pos:PostIt.pos + (20,102.5)
+ end
 end
 {end}
 
-{script:card3.5}
+{script:card7.2}
 on click pos do
 #draw whatever state this Tack is in to TempTack
  TempTack.paste[Tack.copy[]]
@@ -178,9 +154,13 @@ on click pos do
  #if PostIt.draggable is 1, it is draggable, so click should switch it to 0
  if PostIt.draggable>0
   PostIt.draggable:0
+  #and size down
+  PostIt.size:(100,100)
  #if PostIt.draggable is 0, it is NOT draggable, so click should switch it to 1
  elseif PostIt.draggable<1
   PostIt.draggable:1
+  #and size up
+  PostIt.size:(112.5,112.5)
  end
 end
 
@@ -193,11 +173,18 @@ on release pos do
 end
 
 on view do
- me.pos:PostIt.pos + (38.5,0)
+#if PostIt.draggable is 1, then it is in draggable mode and larger, so the Tack  should have a larger offset
+ if PostIt.draggable>0
+  me.pos:PostIt.pos + (45,0)
+ end
+#if PostIt.draggable is 0, then it is NOT draggable, so the Tack should have standard offset
+ if PostIt.draggable<1
+  me.pos:PostIt.pos + (38.5,0)
+ end
 end
 {end}
 
-{script:card3.6}
+{script:card7.3}
 on click pos do
  
 end
@@ -221,12 +208,12 @@ CorkBoard1:{"type":"contraption","size":[460,290],"pos":[27,33],"def":"CorkBoard
 field1:{"type":"field","size":[100,65],"pos":[30,33],"value":"IT'S ALIVE! A TOGGLEABLE, DRAGGABLE, CLEARABLE WIGGLY CANVAS POSTIT!\n"}
 field2:{"type":"field","size":[232,286],"pos":[270,38],"script":"card4.0","value":"Zach's Frankenstein Wiggly PostIt For Dummies (How it Works):\n\n- The \"PostIt\" is made up of 6 Widgets: 3 Canvases for the Tack, and a Wiggly Canvas and Wiggly Player for the 'Note'\n\nThe 'Note':\n- The Note is really 2 separate Widgets, a Wiggly Canvas and Wiggly Player. The two Widgets are always directly on top of one another. When the Tack goes DOWN, the Wiggly Player is toggled to None, making it invisible and untouchable, while the Wiggly Canvas is toggled to Solid, enabling it to be drawn on. When the Tack goes UP, the opposite happens (Canvas is toggled to None and Player is toggled to Solid), and at the same time, the value of the Canvas is copied to the Player.\n\nThe Tack:\n-The main Tack Canvas on the PostIt is the only visible one. The other two act as the source Canvas for the next Sprite, and as temporary storage for moving the current sprite to the source Canvas. This all happens every time the Tack is clicked."}
 field3:{"type":"field","size":[242,156],"pos":[26,180],"script":"card4.0","value":"Notes for adapting this to each Ideation Phase:\n\nIn order to have multiple complete PostIts on the same Card, all of the Widgets in each PostIt must have their names made unique, in order to avoid PostIt '1' interacting with the Widgets of PostIt '2'.\n\nIn particular:\n\n1) The Wiggly Canvas's script  for movement\n2) The Clear Button's script for clearing\n3) The Tack Canvas's script for sprite swapping, PostIt toggling, and movement\n4) The TempTack Canvas's script for movement\n5)The TackSwap Canvas's script for movement"}
-PostIt:{"type":"contraption","size":[100,100],"pos":[161,46],"animated":1,"script":"card4.1","def":"wigglyCanvas","widgets":{"c":{"brush":2},"fr":{"value":{"text":["i","i","i"],"font":["","",""],"arg":["%%IMG2AGQAZAD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wAfAQMAYAEFAF4BCABcAQwAWQENAFgBEABZAREAVwEOAFgBDABcAQkAXgEGAF8BBAD/AP8A/wD/AP8A/wD/AP8A/wD/ALA=","%%IMG2AGQAZAD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wAfAQIAYQEGAF0BCwBZAQwAWQENAFgBAgACAQwAWwEPAFcBDgBYAQ0AWwEJAF0BBgBfAQMA/wD/AP8A/wD/AP8A/wD/AP8A/wCy","%%IMG2AGQAZAD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wAfAQMAYAEFAF4BBwBdAQwAWAEOAFcBEABZARMAUwESAFcBDQBaAQkAXQEGAGEBAgD/AP8A/wD/AP8A/wD/AP8A/wD/ALI="]}},"sfx":{},"tb":{},"cbo":{},"cp":{},"cbr":{"value":"2"}}}
-PostItPlayer:{"type":"contraption","size":[100,100],"pos":[161,46],"script":"card4.2","show":"none","def":"wigglyPlayer","widgets":{"c":{"show":"none","draggable":1},"fr":{"value":{"text":["i","i","i"],"font":["","",""],"arg":["%%IMG2AGQAZAD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wAfAQMAYAEFAF4BCABcAQwAWQENAFgBEABZAREAVwEOAFgBDABcAQkAXgEGAF8BBAD/AP8A/wD/AP8A/wD/AP8A/wD/ALA=","%%IMG2AGQAZAD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wAfAQIAYQEGAF0BCwBZAQwAWQENAFgBAgACAQwAWwEPAFcBDgBYAQ0AWwEJAF0BBgBfAQMA/wD/AP8A/wD/AP8A/wD/AP8A/wCy","%%IMG2AGQAZAD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wAfAQMAYAEFAF4BBwBdAQwAWAEOAFcBEABZARMAUwESAFcBDQBaAQkAXQEGAGEBAgD/AP8A/wD/AP8A/wD/AP8A/wD/ALI="]}},"or":{"value":"[0,1,2]"},"fl":{},"em":{},"cbo":{},"cst":{},"cd":{"value":1}}}
-ClearButton:{"type":"button","size":[60,20],"pos":[181,148],"animated":1,"script":"card3.4","text":"Clear"}
-Tack:{"type":"canvas","size":[24,37],"pos":[199,46],"locked":1,"animated":1,"script":"card4.3","show":"transparent","border":0,"image":"%%IMG0ABgAJQAAAAAAAAAAAAAAAAD/gAOBwAZIYAwSEBwEmBBIWBB+SBfjCB4J+BwS8BhA+BhMcBghMBCJMBASYAhAIAAs4AiCYAwQQARFwAIlwAHvAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==","scale":1}
-TempTack:{"type":"canvas","size":[24,37],"pos":[276,46],"locked":1,"animated":1,"script":"card3.3","show":"none","image":"%%IMG0ABgAJQAAAAAAAAAAAAAAAAAwAAAwAABwAABQAAD/AAGAgAYkQAySYAgSIBhBsBAYMBACcBwxIBmWYB8H4A8BwA8RwAb/gAOLgAQhgASEgAoxQAiEQAkSQAlCQAwowAiIwAISQATCgAMJAAD+AAAAAAAAAA==","scale":1}
-TackSwap:{"type":"canvas","size":[24,37],"pos":[276,96],"locked":1,"animated":1,"script":"card3.6","show":"none","border":0,"image":"%%IMG0ABgAJQAAAAAAAAAAAAAAAAAwAAAwAABwAABQAAD/AAGAgAYkQAySYAgSIBhBsBAYMBACcBwxIBmWYB8H4A8BwA8RwAb/gAOLgAQhgASEgAoxQAiEQAkSQAlCQAwowAiIwAISQATCgAMJAAD+AAAAAAAAAA==","scale":1}
+PostIt:{"type":"contraption","size":[100,100],"pos":[161,46],"animated":1,"script":"card4.1","def":"wigglyCanvas","widgets":{"c":{},"fr":{"value":{"text":["i","i","i"],"font":["","",""],"arg":["%%IMG2AGQAZAD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wAfAQMAYAEFAF4BCABcAQwAWQENAFgBEABZAREAVwEOAFgBDABcAQkAXgEGAF8BBAD/AP8A/wD/AP8A/wD/AP8A/wD/ALA=","%%IMG2AGQAZAD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wAfAQIAYQEGAF0BCwBZAQwAWQENAFgBAgACAQwAWwEPAFcBDgBYAQ0AWwEJAF0BBgBfAQMA/wD/AP8A/wD/AP8A/wD/AP8A/wCy","%%IMG2AGQAZAD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wAfAQMAYAEFAF4BBwBdAQwAWAEOAFcBEABZARMAUwESAFcBDQBaAQkAXQEGAGEBAgD/AP8A/wD/AP8A/wD/AP8A/wD/ALI="]}},"sfx":{},"tb":{},"cbo":{},"cp":{},"cbr":{"value":"2"}}}
+PostItPlayer:{"type":"contraption","size":[100,100],"pos":[161,46],"script":"card4.2","show":"none","def":"wigglyPlayer","widgets":{"c":{},"fr":{"value":{"text":["i","i","i"],"font":["","",""],"arg":["%%IMG2AGQAZAD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wAfAQMAYAEFAF4BCABcAQwAWQENAFgBEABZAREAVwEOAFgBDABcAQkAXgEGAF8BBAD/AP8A/wD/AP8A/wD/AP8A/wD/ALA=","%%IMG2AGQAZAD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wAfAQIAYQEGAF0BCwBZAQwAWQENAFgBAgACAQwAWwEPAFcBDgBYAQ0AWwEJAF0BBgBfAQMA/wD/AP8A/wD/AP8A/wD/AP8A/wCy","%%IMG2AGQAZAD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wAfAQMAYAEFAF4BBwBdAQwAWAEOAFcBEABZARMAUwESAFcBDQBaAQkAXQEGAGEBAgD/AP8A/wD/AP8A/wD/AP8A/wD/ALI="]}},"or":{"value":"[0,1,2]"},"fl":{},"em":{},"cbo":{},"cst":{},"cd":{"value":1}}}
+ClearButton:{"type":"button","size":[60,20],"pos":[181,148],"animated":1,"script":"card4.3","text":"Clear"}
+Tack:{"type":"canvas","size":[24,37],"pos":[199,46],"locked":1,"animated":1,"script":"card4.4","show":"transparent","border":0,"image":"%%IMG0ABgAJQAAAAAAAAAAAAAAAAD/gAOBwAZIYAwSEBwEmBBIWBB+SBfjCB4J+BwS8BhA+BhMcBghMBCJMBASYAhAIAAs4AiCYAwQQARFwAIlwAHvAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==","scale":1}
+TempTack:{"type":"canvas","size":[24,37],"pos":[276,46],"locked":1,"animated":1,"script":"card7.0","show":"none","image":"%%IMG0ABgAJQAAAAAAAAAAAAAAAAAwAAAwAABwAABQAAD/AAGAgAYkQAySYAgSIBhBsBAYMBACcBwxIBmWYB8H4A8BwA8RwAb/gAOLgAQhgASEgAoxQAiEQAkSQAlCQAwowAiIwAISQATCgAMJAAD+AAAAAAAAAA==","scale":1}
+TackSwap:{"type":"canvas","size":[24,37],"pos":[276,96],"locked":1,"animated":1,"script":"card7.3","show":"none","border":0,"image":"%%IMG0ABgAJQAAAAAAAAAAAAAAAAAwAAAwAABwAABQAAD/AAGAgAYkQAySYAgSIBhBsBAYMBACcBwxIBmWYB8H4A8BwA8RwAb/gAOLgAQhgASEgAoxQAiEQAkSQAlCQAwowAiIwAISQATCgAMJAAD+AAAAAAAAAA==","scale":1}
 field4:{"type":"field","size":[122,77],"pos":[29,99],"value":"Note that because of the layered nature of the 'Note', when the player clicks the Tack, a click also seems to register on the Wiggly Player, which causes weirdness."}
 
 {script:card4.0}
@@ -265,6 +252,16 @@ end
 {end}
 
 {script:card4.3}
+on click do
+ PostIt.clear[]
+end
+
+on view do
+ me.pos:PostIt.pos + (20,102.5)
+end
+{end}
+
+{script:card4.4}
 on click pos do
 #draw whatever state this Tack is in to TempTack
  TempTack.paste[Tack.copy[]]
