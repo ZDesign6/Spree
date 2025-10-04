@@ -9,12 +9,8 @@
 - Dialog prompts are not necessary if the narrative is conveyed mechanically
 
 What to do:
-- Remove the "task notes". Not necessary
-- Start playing sounds for execution during the transitions
-- Button interactable before keys show up
 - Phase 1 items should be reworked into "decorations" that show up in the bedroom during Phase 4, and "groceries" that show up in the kitchen during Phase 5. We need to communicate visually about which PostIts are intended to hold which type of item, so that we can copy them into the appropriate phases.
 - Ending sequence, which should be a series of transitional images, with dialog boxes, clarifying that this was a recollection happening inside a therapy session. Dialog should help wrap up the narrative and clarify that all dialog boxes came from the therapist. Player Character can finally have a few dialog lines accepting responsibility for the event - these should be in a different box style and font.
 - Normalize sounds
-- Slower transitions could better convey narrative DONE
 - SFX: Tack in/out, Shower running
 - MAKE DECISION ABOUT NEW PHASE
