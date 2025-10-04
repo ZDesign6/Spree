@@ -1,6 +1,6 @@
 {deck}
 version:1
-card:0
+card:21
 size:[512,342]
 name:"SpreeBeta.deck"
 
@@ -2172,7 +2172,8 @@ image:"%%IMG2AgABVgD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8
 startButton:{"type":"button","size":[106,61],"pos":[187,251],"script":"card1.0","text":"START GAME"}
 field1:{"type":"field","size":[167,305],"pos":[335,23],"script":"execution5.1","value":"EVERY TIME we transition to an ideation phase, the following needs to be done on the PREVIOUS CARD before the transition:\n- all PostIts should be cleared\n- all beenReleased.text should be set to 0\n- completedPostIts.text  must be set to 0\n-keysOn.text must be set to 0\n- numberOfPostIts must be set to the appropriate number of PostIts for that ideation\n-hideMe1 (or the equivalent canvas that masks the background) must have .show:\"solid\"\n-hideMe2 (or equivalent) must have .show:\"solid\"\n-Keys.show must be \"none\"\n- o must be set up for dialog\n-dd.open[deck o]\n-dd.say[any dialog]\n-dd.close[]"}
 field2:{"type":"field","size":[100,295],"pos":[11,32],"value":"ALL IDEATION PHASES MUST:\n- Have all PostIts run a version of the included script\n- Create a beenReleased corresponding to each PostIt, with .text starting at 0 and a script to keep them 'attached' to their corresponding PostIts\n- Create a numberOfPostIts Field\n-Create a completedPostIts Field\n-Create a keysOn Field\n-Create a hideMe1 to mask the corkboard underneath the Keys\n-Create a hideMe2 to mask the border underneath the Keys"}
-field3:{"type":"field","size":[199,193],"pos":[122,23],"style":"code","value":"New Post It Script (note that beenReleased must match the number of the PostIt this script is on, e.g beenReleased1, etc:\n\non release pos do\n #if we haven't incremented yet\n if beenReleased6.text=0\n  completedPostIts.text:completedPostIts.text + 1\n  #toggle beenReleased6 so we don't increment again\n  beenReleased6.text:1\n end\nend"}
+field3:{"type":"field","size":[199,193],"pos":[122,23],"style":"code","value":"New Post It Script (note that beenReleased must match the number of the PostIt this script is on, e.g beenReleased1, etc:\n\non drag pos do\n if !me.locked|me.draggable\n  me.line[(pointer.prev-me.pos+me.container.pos)/me.scale pos]\n end\nend\n\non release pos do\n #if we haven't incremented yet\n if beenReleased3.text=0\n  completedPostIts.text:completedPostIts.text + 1\n  #toggle beenReleased2 so we don't increment again\n  beenReleased3.text:1\n end\nend"}
+completedPostIts Script:{"type":"field","size":[210,136],"pos":[121,205],"style":"code","value":"on view do\n if keysOn.text=0\n  if me.text=numberOfPostIts.text\n    hideMe1.toggle[]\n    hideMe2.toggle[]\n    keyButton.show:\"invisible\"\n    Keys.show:\"transparent\"\n    #flip keysOn so that we don't retrigger\n    keysOn.text:1\n   end\n  end\nend"}
 
 {script:card1.0}
 on click do
