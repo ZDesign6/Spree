@@ -20,7 +20,7 @@ What to do:
    - Socks
    - Deodorant
  VERA:
- - New List
+ - New List (List has the above items in it)
 
 - Ending sequence, which should be a series of transitional images, with dialog boxes, clarifying that this was a recollection happening inside a therapy session. Dialog should help wrap up the narrative and clarify that all dialog boxes came from the therapist. Player Character can finally have a few dialog lines accepting responsibility for the event - these should be in a different box style and font.
 - PHASE 2.5 IMPLEMENTATION
@@ -30,8 +30,6 @@ What to do:
   - Tissues
   - Sticky Notes
 CAITLIN:
- - Pictures of therapy office sequence (guy laying on couch, zoomed out guy laying on couch with therapist legs, full shot of office with guy on couch and therapist in chair)
-- Implement Credits Card after final sequence
 ZACH:
  - Scripting to make items from ideation 2.5 appear on ending sequence
 
@@ -40,8 +38,7 @@ MISC:
 - Title Screen
 CAITLIN:
  - Get Picture of Booze Recipe into Phase 4 Ideation
- ANDERSON:
-- Normalize sounds
-- SFX: Tack in/out, Shower running
 ZACH:
 - Figure out why Canvases on transition6_3 aren't copying correctly from ideation2_5
+- Implement shower, tack in, and tack out sounds
+- Replace execution1_1, excecution1_2, execution1_3 with normalized versions
