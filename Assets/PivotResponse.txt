@@ -36,6 +36,7 @@ MISC:
  VERA:
 CAITLIN:
 - Title Screen
+- Pushing cart in the aisle
 ZACH:
 - Figure out why Canvases on transition6_3 aren't copying correctly from ideation2_5
 - Implement shower, tack in, and tack out sounds
