@@ -29,14 +29,13 @@ What to do:
   - Calming Painting
   - Tissues
   - Sticky Notes
-CAITLIN:
 ZACH:
  - Scripting to make items from ideation 2.5 appear on ending sequence
 
 MISC:
  VERA:
-- Title Screen
 CAITLIN:
+- Title Screen
 ZACH:
 - Figure out why Canvases on transition6_3 aren't copying correctly from ideation2_5
 - Implement shower, tack in, and tack out sounds
