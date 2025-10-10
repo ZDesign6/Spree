@@ -28,9 +28,7 @@ What to do:
 POLISH:
  VERA:
 CAITLIN:
-- Pushing cart in the aisle
 - Implementing New Lists with pixel cleaning shenanigans
 - Copy Drinking Card two more times
 ZACH:
-- Script 2.5 execution to work so that an "eye" is dragged to a shopping cart
 - Figure out if we can get Cards to wait for Sounds from previous Cards to finish before starting their Sound Loops
